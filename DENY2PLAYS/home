@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DENY2PLAYS</title>
+    <style>
+        body {
+            background-image: url('./longwebsitebackground.png');
+            background-color: #0F0F0F;
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 8em;
+            font-family: 'Impact', sans-serif;
+            line-height: 0.2;
+            margin: 8;
+            color: black;
+        }
+
+        p {
+            font-size: 2.5em;
+            text-align: left;
+            font-family: 'Impact', sans-serif;
+            color: black;
+            margin: 5px;
+            margin-left: 20px;
+        }
+
+        text {
+            font-size: 1.5em;
+            text-align: left;
+            max-width: 1200px;
+            color: black;
+            font-family: 'Impact';
+            margin-top: 0px;
+            margin-left: 10;
+        }
+
+        .content {
+            margin-left: 50px;
+            margin-right: 200px;
+        }
+
+        .block1 {
+            font-family: Verdana;
+            text-align: center;
+            position: absolute;
+            top: 1000px;
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 20px;
+            border: 4px solid #f20000;
+            margin-left: 20px;
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            left: 1;
+            width: 100%;
+            padding: 10px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            position: relative;
+            z-index: 100;
+            justify-content: center; 
+            align-items: center;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            padding: 6px 15px;
+            border-radius: 20px;
+            margin: 0 10px;
+            font-weight: 600px;
+            font-family: 'Impact', sans-serif;
+            font-size: 1.5em;
+            text-align: center;
+
+            background: #000000;
+            background-size: 10px 50px;
+            color: #ff1313;
+        }
+
+        .navigation a::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 150%;
+            background-color: rgba(0, 0, 0, 0.6); 
+            transform: translateY(-50%);
+            z-index: -1;
+            transition: transform 0.3s ease;
+            filter: blur(5px); 
+        }
+
+        
+
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #ff1313;
+            border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-corner {
+            color: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #810707;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#">HOME</a>
+            <a href="about-me">ABOUT ME</a>
+            <a href="#">SCRIPTS</a>
+            <a href="#">BOT</a>
+            <a href="#">CONTACTS</a>
+        </nav>
+    </header>
+</body>
+
+</html>
